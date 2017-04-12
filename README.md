@@ -2,4 +2,4 @@
 
 a simple website by PHP
 
-[jinlongart.net](jinlongart.net)
+[jinlongart.net](http://jinlongart.net)
