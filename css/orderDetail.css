@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.row-key {
+    display: inline-block;
+    width:160px;
+    text-align:right;
+    line-height:2em;
+    font-weight:bold;
+}
+
+.row-value {
+    display: inline-block;
+    width:730px;
+    line-height:2em;
+    text-indent:2em;
+}
+
+#content {
+    width:550px;
+    height:180px;
+}

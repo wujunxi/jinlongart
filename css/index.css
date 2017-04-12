@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+.b {
+    font-weight:bold;
+}
+
+.c {
+    text-align: center;
+}
+
+.clickable {
+    cursor:pointer;
+    color: #00bfff;
+}
+
+.main {
+    width:900px;
+    _height:580px;
+    min-height:580px;
+    margin:20px auto 0 auto;
+    font-family: "宋体";
+    font-size: 1em;
+    color:#777;
+    /*text-align:center;*/
+}
+
+/* index.php */
+.img-center {
+    display: block;
+    margin:0 auto;
+}
+
+/* order.php */
+.not-null:after {
+    content: "*";
+    color:red;
+    position: relative;
+    top:5px;
+    margin: 0 0 0 5px;
+}
+
+.note {
+    margin:0 auto;
+    border-collapse:collapse;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.note td {
+    padding: 4px 0 2px 12px;
+    border:solid 1px #000;
+    text-align:left;
+}
+
+.note .title {
+    font-family: "微软雅黑";
+    font-size: 2em;
+    font-weight:bold;
+    line-height: 2.5em;
+}
+
+.note .sub-title {
+    padding:4px 0 0 0;
+}
+
+.note input,.note textarea {
+    /*border:none;*/
+}
+
+.note #from,.note #to {
+    width:370px;
+    height:100px;
+}
+
+.note #info {
+    width:770px;
+    height:300px;
+}
+
+.default-btn {
+    display: block;
+    margin:20px auto 0 auto;
+    padding:4px 12px;
+    color:#00bfff;
+}
+
+/* query.php */
+
+.query-wrap {
+    width:187px;
+    margin:0 auto;
+    padding:4px 0 4px 4px;
+    border:solid 1px #aaa;
+}
+
+.query-wrap-focus {
+    border: outset 1px #00bfff;
+}
+
+.query-wrap input {
+    width:160px;
+    border:none;
+    background:none;
+}
+
+.query-wrap input:focus {
+    outline: none;
+    background: #fff;
+}
+
+.query-wrap label {
+    display: block;
+    position: absolute;
+    line-height: 22px;
+    text-indent: 3px;
+    color: #aaa;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    z-index:-1;
+}
+
+.query-icon {
+    position: relative;
+    top:4px;
+    display: inline-block;
+    width: 21px;
+    height:17px;
+    background: url("/images/btn_search.gif") no-repeat;
+    cursor: pointer;
+}
+
+.public-list {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.public-list li {
+    margin-bottom: 20px;
+    padding:0 1em;
+    border-top:solid 1px #777777;
+    border-bottom:solid 1px #777777;
+}
+
+.public-list a {
+    width:100%;
+    line-height: 4em;
+    display: inline-block;
+    color:#aaa;
+    text-decoration: none;
+}
+
+.public-list a:hover {
+    color:#00bfff;
+}
+
+.public-list .sender{
+    float:right;
+    margin:-4em 0 0 0;
+    line-height: 4em;
+    text-indent: 2em;
+    display: inline-block;
+}
+
+.public-list .send-date {
+    float:right;
+    display: inline-block;
+    margin:0.5em 0 0 0;
+    line-height: 1em;
+    font-style: italic;
+    font-size: 0.5em;
+    text-indent: 2em;
+}
+
+/* about.php */
+.page-title {
+    display:block;
+    margin:40px 0 20px 0;
+    font-family: "微软雅黑";
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+.item-title {
+    margin:20px 0;
+    padding: 0 0 0 10px;
+    border-left:solid 2px #777777;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.item-content {
+    margin:0 0 0 3em;
+}
+
+.item-content p {
+    margin:0;
+    line-height: 1.5em;
+    font-family: "宋体";
+    font-size:1em;
+    text-indent:2em;
+}
+
+.item-list {
+    margin:0;
+    padding:0 0 0 1.2em;
+}
+
+.item-list li {
+    line-height: 1.5em;
+}
+
+.link-type {
+    margin-top:20px;
+    color:#aaa;
+}
+
+.high-light {
+    color:#6699ff;
+}
+
+/*sendContent.php*/
+
+.video-iframe {
+    display: block;
+    margin:40px auto;
+}
+
+.item-img {
+    display: block;
+    margin:40px auto;
+}
+
+.page-info {
+    font-size:0.5em;
+}

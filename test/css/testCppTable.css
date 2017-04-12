@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    padding: 10px;
+}
+
+.container .left {
+    width: 300px;
+    float: left;
+}
+
+.container .right {
+    /*float:left;*/
+    /*width:150px;*/
+    padding: 40px;
+    overflow: hidden;
+    border-left: solid 1px #adadad;
+    /*background:#aaa;*/
+}
+
+/*********************/
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline-block;
+    padding: 0 7px;
+    line-height: 21px;
+    min-width: 14px;
+    border: solid 1px #aaa;
+    border-right: none;
+    text-align: center;
+    color: #7b7b7b;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background: #efefef;
+    background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #efefef 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #efefef 100%);
+    background: linear-gradient(top, #ffffff 0%, #efefef 100%);
+}
+
+.pagination li:hover, .pageination {
+    background: #bbb;
+    background: -moz-linear-gradient(top, #efefef 0%, #bbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%, #bbb 100%);
+    background: -o-linear-gradient(top, #efefef 0%, #bbb 100%);
+    background: -ms-linear-gradient(top, #efefef 0%, #bbb 100%);
+    background: linear-gradient(top, #efefef 0%, #bbb 100%);
+}
+
+.pagination .page-prev {
+    border-radius: 3px 0 0 3px;
+}
+
+.pagination .page-next {
+    border-right: solid 1px #aaa;
+    border-radius: 0 3px 3px 0;
+}
+
+.pagination .page-active, .pagination .page-active:hover {
+    cursor: default;
+    background: #bbb;
+    background: -moz-linear-gradient(top, #bbb 0%, #efefef 100%);
+    background: -webkit-linear-gradient(top, #bbb 0%, #efefef 100%);
+    background: -o-linear-gradient(top, #bbb 0%, #efefef 100%);
+    background: -ms-linear-gradient(top, #bbb 0%, #efefef 100%);
+    background: linear-gradient(top, #bbb 0%, #efefef 100%);
+
+}
+
+.pagination .page-ellipse, .pagination .page-ellipse:hover {
+    background: #EAEAEA;
+    cursor: default;
+}
+
+.page-info {
+    float: right;
+}
+
+.page-info select {
+    position: absolute;
+}

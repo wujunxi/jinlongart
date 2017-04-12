@@ -1,0 +1,19 @@
+create user jinlongart@localhost identified by 'jinlongart';
+
+create database jinlongart;
+
+grant all on jinlongart.* to jinlongart@localhost;
+
+create table users(
+	user_id int unsigned auto_increment not null primary key,
+	name char(20) not null,
+	account char(20) not null,
+	password char(20) not null
+);
+
+insert into users (name,account,password)values('jinlongart','jinlongart','jinlongart');
+insert into users (name,account,password)values('test','1','1');
+
+-- pro
+mysql -h 111.68.9.149 -u a0430211631 -p a0430211631 --skip-secure-auth
+56879365

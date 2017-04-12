@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.index_nav {
+    width:900px;
+    margin:60px auto 0 auto;
+}
+
+.index_nav:after {
+    content:" ";
+    width:0;
+    display: block;
+    clear:both;
+    overflow: hidden;
+}
+
+.index_nav ul {
+    float:left;
+    display: inline-block;
+    list-style: none;
+    height: 20px;
+    line-height: 20px;
+    margin:0;
+    padding:0;
+    font-family: "宋体";
+    font-size:1em;
+}
+
+.index_nav li {
+    display:inline-block;
+    margin: 0 0 0 20px;
+    padding:0 0 4px 0;
+}
+
+.index_nav a {
+    text-decoration:none;
+    color:#777;
+}
+
+.index_nav .active {
+    border-bottom:solid 2px #aaa;
+}
+
+.index_logo {
+    float:left;
+    display: inline-block;
+    margin:-33px 0 0 0;
+}
